@@ -3,11 +3,50 @@ body {
     background-color: lightblue;
 }
 /* Make the header and footer a different color from the background */
+header {
+    background-color: orange;
+    text-align: center;
+    max-width: 100cm;
+    height: 75px;
+    padding:0;
+    margin:0;
+    
+}
 
 /* Align the h1 containing your name in the center of the header*/
+/* did it in the above line */
 
 /* Make your p tag a different color and italic */
-
+p {
+    background-color: orange;
+    text-align: center;
+    max-width: 50cm;
+    height: 75px;
+    font-style: italic;
+}
+page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+content-wrap {
+    padding-bottom: 2.5rem;    
+  }
+  
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
+  }
 /* Put a border around your image */
-
+img {
+    border-width: medium;
+    border-style: solid;
+    border-color: yellow;
+    
+}
 /* Change the font-family of your list */
+html {
+    font-family: fantasy;
+}
