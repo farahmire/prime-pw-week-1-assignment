@@ -21,7 +21,7 @@ p {
     background-color: orange;
     text-align: center;
     max-width: 50cm;
-    height: 75px;
+    height: 75;
     font-style: italic;
 }
 page-container {
