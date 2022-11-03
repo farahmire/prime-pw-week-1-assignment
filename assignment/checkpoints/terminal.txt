@@ -14,7 +14,7 @@ cd ..
 mkdir 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 
-not a directory
+returns nothing, on a folder with ontent it will list content
 # 6 - What is a quick way to create a new file?
 
 type touch then name of file you want to create
@@ -23,9 +23,9 @@ type touch then name of file you want to create
 git version 2.33.0
 # 8 - Why would you run the command 'git status'?
 
-To see the changes you still have to commit
+To see the changes you still have to commit, and which files arnt bbeing tracked 
 # 9 - What does the command 'git add .' do?
-stages the commit
+stages all changes in the current directory
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 git push origin main

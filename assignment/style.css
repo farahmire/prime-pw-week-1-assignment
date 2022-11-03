@@ -13,16 +13,29 @@ header {
     
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darkgreen;
+
+}
+
 /* Align the h1 containing your name in the center of the header*/
-/* did it in the above line */
+h1 { 
+    text-align: center;
+}
+
+
 
 /* Make your p tag a different color and italic */
 p {
-    background-color: orange;
+    color:white;
     text-align: center;
     max-width: 50cm;
     height: 75;
     font-style: italic;
+    
+
 }
 page-container {
     position: relative;
@@ -34,11 +47,14 @@ content-wrap {
   }
   
 footer {
-    position: absolute;
-    bottom: 0;
+    position:absolute;
+    bottom: 20;
     width: 100%;
-    height: 2.5rem;            
+    height: 2.5rem; 
+               
   }
+
+
 /* Put a border around your image */
 img {
     border-width: medium;
@@ -47,6 +63,6 @@ img {
     
 }
 /* Change the font-family of your list */
-html {
+ul {
     font-family: fantasy;
 }
